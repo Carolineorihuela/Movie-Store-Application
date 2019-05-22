@@ -30,41 +30,49 @@
             </nav>            
             <h1> Add Movie </h1>
             <p> Please insert detail for movie </p>
-            <form class="form-horizontal" action="/action_page.php">
+            <form class="form-horizontal" action="#">
                 <div class="form-group">
-                  <label class="control-label col-sm-2">Title</label>
+                  <label class="control-label col-sm-2">Title:</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="title" placeholder="Enter title">
+                    <input type="text" class="form-control" id="title" placeholder="Enter title" required>
                   </div>
                 </div>
                 <div class="form-group">
-                  <label class="control-label col-sm-2">Year</label>
+                  <label class="control-label col-sm-2">Year:</label>
                   <div class="col-sm-10"> 
-                    <input type="text" class="form-control" id="year" placeholder="Enter year of release">
+                    <input type="text" class="form-control" id="year" placeholder="Enter year of release" required>
                   </div>
                 </div>
                 <div class="form-group">
-                  <label class="control-label col-sm-2">Rating</label>
+                  <label class="control-label col-sm-2">Rating:</label>
                   <div class="col-sm-10"> 
-                    <input type="text" class="form-control" id="rating" placeholder="Enter rating">
+                    <input type="text" class="form-control" id="rating" placeholder="Enter rating" required>
                   </div>
                 </div>
                 <div class="form-group">
-                  <label class="control-label col-sm-2">Description</label>
+                  <label class="control-label col-sm-2">Description:</label>
                   <div class="col-sm-10"> 
-                    <input type="text" class="form-control" id="desc" placeholder="Enter movie description">
+                    <input type="text" class="form-control" id="desc" placeholder="Enter movie description" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2">Genre:</label>
+                  <div class="col-sm-10"> 
+                    <label class="radio-inline"><input type="radio" name="optradio" checked>Action</label>
+                    <label class="radio-inline"><input type="radio" name="optradio">Adventure</label>
+                    <label class="radio-inline"><input type="radio" name="optradio">Horror</label>
                   </div>
                 </div>
                 <div class="form-group">    
-                  <label class="control-label col-sm-2">Price</label>
+                  <label class="control-label col-sm-2">Price:</label>
                   <div class="col-sm-10"> 
-                    <input type="text" class="form-control" id="price" placeholder="Enter price">
+                    <input type="text" class="form-control" id="price" placeholder="Enter price" required>
                   </div>
                 </div>
                 <div class="form-group"> 
                   <div class="col-sm-offset-2 col-sm-10">
                     <div class="checkbox">
-                      <label><input type="checkbox"> Confirmation </label>
+                      <label><input type="checkbox" required> Confirmation </label>
                     </div>
                   </div>
                 </div>

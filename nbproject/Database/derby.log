@@ -1,0 +1,37 @@
+Fri Apr 19 12:50:40 AEST 2019 : Apache Derby Network Server - 10.10.2.0 - (1582446) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Fri Apr 19 12:50:40 AEST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-016a-3380-cbb1-000053cd19db 
+on database directory /Users/admin/Desktop/IDS/Database/MovieStoreDataBase with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
+Loaded from file:/Applications/NetBeans/glassfish-4.1.1/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_201-b09
+user.dir=/Applications/NetBeans/glassfish-4.1.1/javadb
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.14.3
+derby.system.home=/Users/admin/Desktop/IDS/Database
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Apr 19 12:50:43 AEST 2019:
+Shutting down instance a816c00e-016a-3380-cbb1-000053cd19db on database directory /Users/admin/Desktop/IDS/Database/MovieStoreDataBase with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
+Fri Apr 19 12:50:43 AEST 2019 Thread[DRDAConnThread_2,5,main] (DATABASE = MovieStoreDataBase), (DRDAID = {2}), Database 'MovieStoreDataBase' shutdown.
+----------------------------------------------------------------
+Fri Apr 19 12:52:53 AEST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance 560740aa-016a-3380-cbb1-000053cd19db 
+on database directory /Users/admin/Desktop/IDS/Database/MovieStoreDataBase with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
+Loaded from file:/Applications/NetBeans/glassfish-4.1.1/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_201-b09
+user.dir=/Applications/NetBeans/glassfish-4.1.1/javadb
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.14.3
+derby.system.home=/Users/admin/Desktop/IDS/Database
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Apr 19 16:10:27 AEST 2019: Shutting down Derby engine
+----------------------------------------------------------------
+Fri Apr 19 16:10:27 AEST 2019:
+Shutting down instance 560740aa-016a-3380-cbb1-000053cd19db on database directory /Users/admin/Desktop/IDS/Database/MovieStoreDataBase with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
+----------------------------------------------------------------

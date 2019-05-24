@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="home" content ="width=device-width">
         <script type="text/javascript" src="js/script.js"></script>
-        <title>Movie Store - Ordering made easy | Welcome</title>
+        <title>Movie Store - Ordering made easy </title>
         <link rel= "stylesheet"  href="style.css" type="text/css">
     <head> 
 
@@ -45,6 +45,13 @@
                                 <li><a href="browse.jsp" class="active"> Movies</a></li>
                                 <li><a href="browse.jsp" class="active"> Genre</a></li>
                                 <li><a href="browse.jsp" class="active"> Year</a></li>
+                     <div class = "search">
+
+                        <input type= "text" class="searchBar" name = "searchBar" placeholder="Searching..."> 
+                       <a> <img class="icon" src="Images/search.jpg"> </a>
+                        
+
+                     </div>
                             </ul>
 
 
@@ -55,17 +62,11 @@
 
                 </div>
 
-                <div class = "search">
-
-                        <input type= "text" class="searchBar" name = "searchBar" placeholder="HHHHmmmmmm...."> 
-                       <a> <img class="icon" src="Images/search.jpg"> </a>
-                        
-
-                     </div>
+               
 
 
             </header>
-
+         
 
 
             <figure id="wallpapers">
@@ -156,6 +157,32 @@
 
 
             </div>
+           
+           
+           
+           <div class="slideshow-container">
+              <div class="slides">
+    
+             <img src="Images/image1.png" style="width:100%">
+             </div>
+
+            <div class="slides">
+    
+            <img src="Images/imgage2.jpg" style="width:100%">
+            </div>
+             
+             <div class="slides fade">
+            
+            <img src="Images/image3.png" style="width:100%">
+    
+            </div>
+
+            <div class="slides">
+                
+             <img src="image.jpg" style="width:100%">
+    
+             </div>
+         </div>
         -->
 
             <footer>

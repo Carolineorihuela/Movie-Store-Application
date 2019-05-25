@@ -42,8 +42,11 @@
                                 <li><a href="movies.jsp" class="active"> Movies</a></li>
                                 <li><a href="genre.jsp" class="active"> Genre</a></li>
                                 <li><a href="year.jsp" class="active"> Year</a></li>
+                                <li><a href="profile.jsp" class="active"> My Profile</a></li>
+                                <li><input type= "text" class="searchBar" name = "searchBar" placeholder="Searching..."></li>
                                 <li><a> <img class="icon" src="Images/search.jpg"> </a></li>
-                                
+                                                                
+
                             </ul>
 
 
@@ -58,8 +61,7 @@
     
     </header>
         
-        <% if(email != null) { %>
-        <h1> <%=fname%> <%=lname%> </h1> 
+         <!--     <h1> <%=fname%> <%=lname%> </h1> -->
        
         
         

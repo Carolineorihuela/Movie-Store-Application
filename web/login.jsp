@@ -10,8 +10,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="login" content="width=device-width" >
+        <script type="text/javascript" src="js/script.js"></script>
         <title>Movie Store - Ordering made easy | Login</title>
-        <link rel="stylesheet" type="text/css" href="Style/style.css" >
+        <link rel="stylesheet" type="text/css" href="style.css" >
 
 </head>
 
@@ -29,8 +30,10 @@
                          <nav> 
                              <ul> 
                                 <li><a href="home.jsp" class="active">Home</a></li>
-
-                                <li><a href="browse.jsp" class="active"> Browse</a></li>
+                                <li><a href="movies.jsp" class="active"> Movies</a></li>
+                                <li><a href="genre.jsp" class="active"> Genre</a></li>
+                                <li><a href="year.jsp" class="active"> Year</a></li>
+                                
                             </ul>
 
 
@@ -48,11 +51,12 @@
 
 
     <div class = "loginPage"> 
-            <div class="registerForm">
+            
                 
 
 
-        <form class="Lform">
+        <form 
+            class="Lform">
                 <input type="name" name="userID" placeholder="UserID"> 
                 <input type="password" name="password" placeholder="Password"> 
                 <button id="registerSubmit"><b>Submit</b></button>
@@ -61,20 +65,9 @@
         </form>
 
 
-        <form class = "Rform">
-                <input type="name" name="fName" placeholder="First Name"> 
-                <input type="name" name="fName" placeholder="Last Name"> 
-    
-                <!--<input type="name" name="userID" placeholder="Username"> -->
-                <input type="email" name="emaik" placeholder="Email"> 
-                <input type="password" name="password" placeholder="Password"> 
-                <input type="password" placeholder="Confirm Password">  
-                <button id="registerSubmit"><b>Submit</b></button>
-                <p class="message">Already have an account click <a class="point" href="#">here to log in </a>.</p>
-    
-            </form>
+        
             </div>
-            </div>  
+              
 
             <script src='https://code.jquery.com/jquery-3.4.0.min.js'> </script> 
             <script>$('.message a').click(function(){

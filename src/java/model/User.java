@@ -4,20 +4,26 @@
  * and open the template in the editor.
  */
 package model;
-
+import java.io.Serializable;
 /**
  *
  * @author carolinebermeo
  */
-public class User {
+public class User implements Serializable{
     String fname;
     String lname;
     String email;
     String password;
 
-    public User() {
+    public User(String fname, String lname, String email,String password) {
+        this.fname = fname;
+        this.lname =lname;
+        this.email = email;
+        this.password = password;      
     }
 
+    public User(){}
+    
     public String getFname() {
         return fname;
     }

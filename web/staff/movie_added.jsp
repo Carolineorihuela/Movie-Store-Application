@@ -4,11 +4,11 @@
     Author     : Takashi
 --%>
 
-<%@page import="uts.isd.model.dao.*"%>
-<%@page import="uts.isd.controller.*"%>
+<%@page import="model_database.*"%>
+<%@page import="controller.*"%>
 <%@page import="java.sql.*"%>
 
-<%@page contentType="text/html" import="java.util.*" import="uts.isd.model.*" pageEncoding="UTF-8"%>
+<%@page contentType="text/html" import="java.util.*" import="model.*" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -40,10 +40,18 @@
                     <li><a href="movie_manager.jsp">All Movies</a></li>
                     <li class="active"><a href="add_movie.jsp">Add Movie</a></li>
                     <li><a href="movie_update.jsp">Update Movie</a></li>
-                    <li><a href="#">Under Development</a></li>
+                    <li><a href="movie_delete.jsp">Delete Movie</a></li>
                 </ul>
                 </div>
             </nav> 
+            <%
+                DB_manager manager = (DB_manager)session.getAttribute("manager");
+                if (manager == null){ 
+                    %><h1 align="center"> Database connection error</h1>  <%                    
+                }
+                if (manager != null){
+                    manager.addMovie(id, title, rating, desc, genre, price, stock_number, release);                
+            %>
             <h1>Movie Added</h1>
             <br>
             <h3>Movie detail</h3>
@@ -55,12 +63,8 @@
             <p>Price: $<%=price%></p>
             <p>Stock number: <%=stock_number%></p>
             <p>Year of release: <%=release%></p>
+            <%}%>
         </div>
     </body>
-    
-    <%
-        //DBManager manager = (DBManager)session.getAttribute("manager");
-        //manager.addMovie(id, title, rating, desc, genre, price, stock_number, release);
-    %>
     
 </html>

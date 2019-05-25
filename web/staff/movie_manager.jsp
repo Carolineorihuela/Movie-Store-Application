@@ -24,14 +24,27 @@
                     <li class="active"><a href="movie_manager.jsp">All Movies</a></li>
                     <li><a href="add_movie.jsp">Add Movie</a></li>
                     <li><a href="movie_update.jsp">Update Movie</a></li>
-                    <li><a href="#">Under Development</a></li>
+                    <li><a href="movie_delete.jsp">Delete Movie</a></li>
                 </ul>
                 </div>
             </nav> 
             <h1> Movie Manager </h1>
-            <p> Click on the movie to change its detail </p>
-            <p> Page under development</p>
-            <img src="images/page_und_development.png">
+            <br>
+            <h4> List of all movies in the database </h4>
+            <table class="table table-bordered">
+                <thead class="h">
+                    <tr>
+                        <td class="a">ID</td>
+                        <td class="a">Title</td>
+                        <td class="a">Rating</td>
+                        <td class="a">Description</td>
+                        <td class="a">Genre</td>
+                        <td class="a">Price</td>
+                        <td class="a">Stock number</td>
+                        <td class="a">Year of release</td>
+                    </tr>
+                </thead>
+            </table>
         </div>
     </body>
 </html>

@@ -24,11 +24,19 @@
                     <li><a href="movie_manager.jsp">All Movies</a></li>
                     <li><a href="add_movie.jsp">Add Movie</a></li>
                     <li><a href="movie_update.jsp">Update Movie</a></li>
-                    <li><a href="#">Under Development</a></li>
+                    <li><a href="movie_delete.jsp">Delete Movie</a></li>
                 </ul>
                 </div>
             </nav> 
-            <h1>Welcome to OMS's movie manager system</h1>
+            <h1>OMS's movie manager system</h1>
+            <br>
+            <h4>Welcome to movie management system, you can directly add, update or delete a movie from the database</h4>
+            <h4>Please click on navigation link above to use desired function or simply click on one of the option below:</h4>
+            <ul>
+                <li><a href="movie_manager.jsp">Show all movie in the database</li>
+                <li><a href="add_movie.jsp">Add a movie into database</li>
+                <li><a href="movie_update.jsp">Update a movie into database</li>
+            </ul>
         </div>
         
     </body>

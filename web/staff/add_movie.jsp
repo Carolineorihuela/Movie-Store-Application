@@ -24,12 +24,13 @@
                     <li><a href="movie_manager.jsp">All Movies</a></li>
                     <li class="active"><a href="add_movie.jsp">Add Movie</a></li>
                     <li><a href="movie_update.jsp">Update Movie</a></li>
-                    <li><a href="#">Under Development</a></li>
+                    <li><a href="movie_delete.jsp">Delete Movie</a></li>
                 </ul>
                 </div>
             </nav>            
             <h1> Add Movie </h1>
-            <p> Please insert detail for movie </p>
+            <br>
+            <h4> Please insert detail for movie </h4>
             <form class="form-horizontal" action="movie_added.jsp" method="post">
                 <div class="form-group">
                   <label class="control-label col-sm-2">ID:</label>

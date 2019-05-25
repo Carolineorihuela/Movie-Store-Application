@@ -18,16 +18,16 @@
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#">Online Movie Store - Staff</a>
+                        <a class="navbar-brand active" href="mov_man_home.jsp">OMS's Movie Management System</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Movie Manager</a></li>
+                    <li class="active"><a href="movie_manager.jsp">All Movies</a></li>
                     <li><a href="add_movie.jsp">Add Movie</a></li>
-                    <li><a href="staff_movie_list.jsp">Customer View</a></li>
+                    <li><a href="movie_update.jsp">Update Movie</a></li>
                     <li><a href="#">Under Development</a></li>
                 </ul>
                 </div>
-            </nav>
+            </nav> 
             <h1> Movie Manager </h1>
             <p> Click on the movie to change its detail </p>
             <p> Page under development</p>

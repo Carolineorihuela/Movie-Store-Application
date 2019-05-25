@@ -28,7 +28,7 @@
                 </ul>
                 </div>
             </nav> 
-            <h1>Hello World!</h1>
+            <h1>Welcome to OMS's movie manager system</h1>
         </div>
         
     </body>

@@ -1,6 +1,6 @@
 <%-- 
-    Document   : movie_delete
-    Created on : 26/05/2019, 12:01:24 AM
+    Document   : movie_deleted
+    Created on : 26/05/2019, 7:27:22 PM
     Author     : Takashi
 --%>
 
@@ -14,7 +14,12 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">  
     </head>
+        <%
+            DB_manager manager = (DB_manager)session.getAttribute("manager");
+            String id = request.getParameter("ID");
+        %>
     <body>
+        
         <div class="container">
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
@@ -29,30 +34,20 @@
                 </ul>
                 </div>
             </nav>
-            <h1>Movie Deletion</h1>
-            <br>
-            <h4>Please provide an ID</h4>
-            <form class="form-horizontal" action="movie_deleted.jsp" method="post">
-                <div class="form-group">
-                  <label class="control-label col-sm-2">ID:</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" name="ID" placeholder="Enter movie ID" required>
-                  </div>
-                </div>
-                <div class="form-group"> 
-                  <div class="col-sm-offset-2 col-sm-10">
-                    <div class="checkbox">
-                      <label><input type="checkbox" required> Confirmation </label>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group"> 
-                  <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-default">Submit</button>
-                  </div>
-                </div>
-            </form>
+            <% if (manager == null){
+                %>  <h1 align="center"> Cannot reach database</h1>
+                    <h2 align="center"> Please try again </h2>
+                <%
+            }
+                if (manager != null){
+                    //if(manager.checkMovie(id)){
+                %> <h1>Movie ID: <%= id%> has been deleted</h1><%
+                    //manager.deleteMovie(id);
+                    //}
+                    //if(!manager.checkMovie(id))
+                %> <h1>Cannot find Movie ID: <%= id%> in database</h1><%
+            }
+            %>
         </div>
-        
     </body>
 </html>

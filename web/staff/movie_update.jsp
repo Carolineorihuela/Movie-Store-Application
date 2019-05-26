@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Movie List</title>
+        <title>Movie Update</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">   
     </head>
@@ -31,7 +31,7 @@
             <h1> Update Movie </h1>
             <br>
             <h4> Please provide an ID </h4>            
-            <form class="form-horizontal" action="movie_added.jsp" method="post">
+            <form class="form-horizontal" action="movie_updating.jsp" method="post">
                 <div class="form-group">
                   <label class="control-label col-sm-2">ID:</label>
                   <div class="col-sm-10">

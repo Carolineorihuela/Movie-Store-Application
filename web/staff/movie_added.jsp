@@ -47,7 +47,9 @@
             <%
                 DB_manager manager = (DB_manager)session.getAttribute("manager");
                 if (manager == null){ 
-                    %><h1 align="center"> Database connection error</h1>  <%                    
+                    %><h1 align="center"> Cannot reach database</h1>
+                      <h2 align="center"> Please try again </h2>
+                    <%                    
                 }
                 if (manager != null){
                     manager.addMovie(id, title, rating, desc, genre, price, stock_number, release);                

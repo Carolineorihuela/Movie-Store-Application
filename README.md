@@ -1,6 +1,6 @@
 # Movie-Store-Application
 
-Team Members and Modules
+* *Team Members and Modules* *
 
 **Angelica - Order Management [MVC]**
   - Create - User (registered or anonymous) can create (save, submit) an order for a movie(s).
